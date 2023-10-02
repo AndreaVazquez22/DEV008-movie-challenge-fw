@@ -116,7 +116,7 @@ function App() {
             placeholder="Busqueda"
             onChange={(e) => setSearchKey(e.target.value)}
           />
-          <button className="btn-search">Búsqueda</button>
+          <button className="btn-search">Buscar</button>
         </form>
 
         <Generos onChangeGenre={getGenre} />
